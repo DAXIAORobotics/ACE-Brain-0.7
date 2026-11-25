@@ -83,10 +83,6 @@ bash scripts/run_all.sh /path/to/hf_checkpoint results/mymodel                  
 
 Judged benchmarks need `JUDGE_BASE_URL` / `JUDGE_API_KEY` (paper judge: `qwen3.8-flash`).
 
-## Maintaining the page
-
-After editing `data/*.json` run `python3 tools/build_data.py` (regenerates the `data/*.js` mirrors) and bump the `?v=` query on the `styles.css`, `app.js` and `data/*.js` links in `index.html`. Preview with `python3 -m http.server 8000`; enable GitHub Pages from branch `main`, folder `/ (root)`.
-
 ## Citation
 
 ```bibtex
