@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "taskbench"
+version = "1.0.0"
+description = "Evaluation harness for task-understanding benchmarks (EgoPlan, LADDER, RoboFAC, Cosmos, RoboBench-NL, ERIQ, progress)"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+dependencies = ["numpy", "pillow", "pyarrow", "openai>=1.30", "tqdm"]
+
+[project.optional-dependencies]
+vllm = ["vllm>=0.18", "qwen-vl-utils"]
+hf = ["torch", "transformers>=4.57", "accelerate"]
+build = ["opencv-python-headless", "huggingface_hub", "pyyaml"]
+
+[tool.setuptools.packages.find]
+include = ["taskbench*"]

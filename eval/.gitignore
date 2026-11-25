@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+results/
+*.egg-info/
+.pytest_cache/
+raw/
+
+# datasets are hosted on the Hugging Face Hub (see prepare.py --from-hub);
+# git keeps only small manifests (SHA256SUMS, MANIFEST.json, id lists, notices, jsonl question files)
+data/*/images/
+data/cosmos/data/

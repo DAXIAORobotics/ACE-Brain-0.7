@@ -1,0 +1,119 @@
+{
+ "dataset": "RoboFAC test split, rebuilt as 8-frame LLaVA-style jsonl (derived from the MINT-SJTU/RoboFAC-dataset release; arXiv 2505.12224)",
+ "upstream": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+ "upstream_license": "MIT",
+ "built": "2026-10-09",
+ "frame_header": "These 8 images are frames of a robot video, in temporal order; the last one is the current view.",
+ "n_frames": 8,
+ "long_side": 448,
+ "jpeg_quality": 90,
+ "test": {
+  "rows": 5532,
+  "videos": 1204,
+  "rows_by_type": {
+   "Task identification": 1204,
+   "Task planning": 1204,
+   "Failure detection": 1204,
+   "Failure identification": 960,
+   "Failure locating": 960
+  },
+  "rows_by_task_base": {
+   "PullCubeByTool": 1520,
+   "InsertCylinder": 1120,
+   "PullCube": 732,
+   "PickCubeInBox": 720,
+   "PushCube": 720,
+   "StackCube": 720
+  },
+  "videos_by_task_base": {
+   "PullCubeByTool": 320,
+   "InsertCylinder": 240,
+   "PullCube": 164,
+   "PickCubeInBox": 160,
+   "PushCube": 160,
+   "StackCube": 160
+  },
+  "answers": {
+   "Failure detection": {
+    "no": 960,
+    "yes": 244
+   },
+   "Failure identification": {
+    "Position deviation.": 560,
+    "Grasping error.": 280,
+    "Orientation deviation.": 120
+   },
+   "Failure locating": {
+    "Grasp the L-shaped tool.": 120,
+    "Reach for the cylinder on the table.": 80,
+    "Insert the cylinder into the middle hole of the shelf.": 80,
+    "Reach for the cube on the table.": 80,
+    "Lower the L-shaped tool.": 80,
+    "Pull the cube back.": 80,
+    "Reach for the cube.": 80,
+    "Pull the cube to the target position.": 80,
+    "Push the cube to the target position.": 80,
+    "Reach for the red cube.": 80,
+    "Rotate the cylinder to an upright position.": 40,
+    "Put down the cube in the box.": 40,
+    "Stack the red cube on the green cube.": 40
+   }
+  },
+  "letters": {
+   "Failure identification": {
+    "K=6": {
+     "A": 160,
+     "B": 160,
+     "C": 160,
+     "D": 160,
+     "E": 160,
+     "F": 160
+    }
+   },
+   "Failure locating": {
+    "K=3": {
+     "A": 80,
+     "B": 80,
+     "C": 80
+    },
+    "K=4": {
+     "A": 180,
+     "B": 180,
+     "C": 180,
+     "D": 180
+    }
+   }
+  }
+ },
+ "test_rows_dropped": {
+  "Failure explanation:excluded_gpt4o_generated": 960,
+  "High-level correction:excluded_gpt4o_generated": 960,
+  "Low-level correction:excluded_gpt4o_generated": 396
+ },
+ "locating_answer_fixes": {
+  "DROP MicrowaveTask-fork: 'Put the fork in the cup'": 78,
+  "DROP MicrowaveTask-knife: 'Put the knife in the cup'": 87,
+  "DROP MicrowaveTask-mug: 'Put the spoon in the mug'": 73,
+  "content_subset Rotation-gen1: 'Grasp for the apple.' -> 'Grasp the apple.'": 166,
+  "content_subset Rotation-gen2: 'Grasp for the green cube.' -> 'Grasp the green cube.'": 206,
+  "content_subset Rotation-v1: 'Grasp for the green cube.' -> 'Grasp the green cube.'": 182,
+  "DROP PushCube-box: 'Grasp the L-shaped tool.'": 14,
+  "DROP PushCube-box: 'Reach for the L-shaped tool.'": 9,
+  "DROP PushCube-cup: 'Grasp the L-shaped tool.'": 18,
+  "DROP PushCube-cup: 'Reach for the L-shaped tool.'": 10,
+  "DROP PushCube-v1: 'Grasp the L-shaped tool.'": 17,
+  "DROP PushCube-v1: 'Reach for the L-shaped tool.'": 13,
+  "content_subset StackCube: 'Reach for the cube.' -> 'Reach for the red cube.'": 80
+ },
+ "locating_answer_fixes_note": "Applied while building the failure-locating questions (train and test pools). In each key the quoted text is the original annotation; \"DROP <task>: ...\" counts annotations that were dropped because they did not occur in the annotated subtask plan, \"A -> B\" counts annotations that were rewritten. Counts refer to the full build (train + test pools), not to the 960 shipped test locating questions; test rows whose answer was rewritten carry the original text in the field orig_answer.",
+ "test_locating_answer_rewrites": {
+  "StackCube: 'Reach for the cube.' -> 'Reach for the red cube.'": 80
+ },
+ "test_locating_answer_rewrites_note": "Among the 960 shipped failure-locating test questions, exactly these 80 had their reference rewritten (original text kept in orig_answer). The Grasp-for -> Grasp normalisation and most DROP entries above concern task families / annotations of the full build; per-test drop counts were not recorded.",
+ "shipped_files": {
+  "questions": "test.jsonl",
+  "questions_sha256": "5db4d25d20bca8c59d3f20d7e79f6ba532f5e645c872232d9bf2cc4f141fb414",
+  "images": 9632,
+  "image_checksums": "SHA256SUMS"
+ }
+}

@@ -1,0 +1,17 @@
+{
+  "benchmark": "egoplan",
+  "data_subdir": "egoplan",
+  "items": "eval.jsonl",
+  "image_root": ".",
+  "generation": {
+    "temperature": 0.0,
+    "max_tokens": 1024,
+    "thinking": false,
+    "min_pixels": 65536,
+    "max_pixels": 16777216,
+    "seed": 0,
+    "max_model_len": 32768,
+    "max_images": 40,
+    "batch_size": 64
+  }
+}

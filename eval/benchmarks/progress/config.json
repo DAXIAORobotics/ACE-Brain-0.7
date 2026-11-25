@@ -1,0 +1,16 @@
+{
+  "benchmark": "progress",
+  "data_subdir": "progress",
+  "items": "questions.jsonl",
+  "image_root": ".",
+  "generation": {
+    "temperature": 0.0, "max_tokens": 64, "thinking": false,
+    "min_pixels": 65536, "max_pixels": 16777216, "seed": 0,
+    "max_model_len": 32768, "max_images": 4, "batch_size": 64
+  },
+  "n_items": 200,
+  "frames_per_question": 4,
+  "metric": "MAE (lower is better); unparsable or missing = absolute error 1",
+  "prompt": "<image> x4, then: Task: <task>\\nThe images are in chronological order. Estimate overall task progress at the last image. Return only JSON with a numeric \"process\" between 0 and 1.",
+  "images_distributed": false
+}

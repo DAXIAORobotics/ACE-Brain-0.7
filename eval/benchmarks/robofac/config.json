@@ -1,0 +1,11 @@
+{
+  "benchmark": "robofac",
+  "data_subdir": "robofac",
+  "items": "test.jsonl",
+  "image_root": ".",
+  "generation": {
+    "temperature": 0.0, "max_tokens": 1024, "thinking": false, "min_pixels": 65536, "max_pixels": 16777216,
+    "seed": 0, "max_model_len": 32768, "max_images": 40, "batch_size": 64
+  },
+  "protocol": "robofac-local-five-families-v1: 5,532 test questions, 8 frames each, greedy; closed families scored by rules, task_identification by a Yes/No LLM judge (local protocol); headline = mean of 4 family accuracies"
+}

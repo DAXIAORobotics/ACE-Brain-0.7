@@ -1,0 +1,7 @@
+Portions of this directory are adapted from EmbodiedEvalKit (https://github.com/pickxiguapi/EmbodiedEvalKit),
+Copyright (c) 2025 Yifu Yuan, MIT License (see LICENSE in this directory), upstream commit
+5ec3a60e03894ea5b9215127b47afaf39d969dae:
+  eek_cosmos.py      <- benchmark/cosmos.py   (prompt construction, answer extractor, statistics; logic unchanged)
+  eek_vllm_input.py  <- core/vllm_engine.py   (chat messages, qwen_vl_utils video preprocessing, vLLM sampling; logic unchanged)
+Changes: removed the Hugging Face `datasets`/logging/BaseDataset plumbing so the code runs without a local clone of the kit,
+added a wrapper that renders the Qwen3.5 chat template with the empty think block, and batched input preparation.

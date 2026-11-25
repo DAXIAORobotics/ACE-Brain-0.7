@@ -1,0 +1,5 @@
+Fonts in this folder
+
+Inter (variable, Latin subset): SIL Open Font License 1.1, see Inter-OFL.txt
+Source Serif 4 (variable, roman and italic, Latin subset): SIL Open Font License 1.1, see SourceSerif4-OFL.txt
+JetBrains Mono (400, 500, Latin subset): SIL Open Font License 1.1, see JetBrainsMono-OFL.txt

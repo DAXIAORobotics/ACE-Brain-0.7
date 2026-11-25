@@ -1,0 +1,37 @@
+# task
+Model,Group,EgoPlan-Bench,Cosmos-Reason1,RoboBench,LADDER,RoboFAC,ERIQ,Avg6,Progress MAE
+ACE-Brain-0.7,Ours,74.5,83.5,67.4,79.0,69.2,85.1,76.5,0.087
+GPT-6 Astra,Closed,75.9,77.5,66.0,75.7,53.2,87.9,72.7,0.125
+Claude Opus 5.5,Closed,70.1,76.5,68.9,79.5,57.7,88.4,73.5,0.118
+Qwen3.5-9B,General-purpose open,48.8,62.0,55.6,68.8,35.9,71.4,57.1,0.257
+Qwen3.5-27B,General-purpose open,56.1,66.7,60.2,74.3,43.7,77.6,63.1,0.215
+RoboBrain 2.5-8B,Open embodied,44.6,57.6,55.2,64.2,42.7,73.0,56.2,0.19
+RynnBrain 1.1-9B,Open embodied,56.1,63.7,40.0,62.3,40.9,74.3,56.2,0.324
+SenseNova-SI 1.1-8B,Open embodied,40.1,52.2,52.9,68.9,44.8,67.4,54.4,0.216
+PhysBrain 1.5-8B,Open embodied,66.9,72.7,51.4,48.5,38.6,72.1,58.4,0.218
+Embodied-R1.5-8B,Open embodied,60.5,68.6,50.4,59.6,43.6,67.6,58.4,0.28
+ACE-Brain-0.5-8B,Open embodied,31.1,47.3,45.7,45.4,41.5,61.4,45.4,0.333
+Cosmos-Reason1-7B,Open embodied,33.3,61.7,52.4,50.9,38.1,63.9,50.1,0.274
+MiMo-Embodied-7B,Open embodied,42.1,60.3,54.7,70.2,34.7,67.2,54.9,0.239
+Hy-Embodied-VLM-1.0,Open embodied,41.1,59.5,54.6,64.2,55.3,68.4,57.2,0.19
+RynnBrain-30B-A3B,Open embodied,57.1,64.6,31.6,63.0,45.5,68.7,55.1,0.327
+RoboBrain 2.0-32B,Open embodied,51.4,53.5,56.1,65.0,39.5,67.8,55.6,0.267
+Cosmos-Reason2-32B,Open embodied,44.3,73.9,55.0,60.0,48.2,71.9,58.9,0.22
+
+# grounding
+Model,Group,Where2Place,PixMo-Count,RoboSpatial,RefSpatial,PointArena,RoboAfford,ShareRobot,Avg7,RefCOCOg
+ACE-Brain-0.7,Ours,82.89,89.98,73.13,76.17,76.17,88.66,44.31,75.9,91.25
+Claude Opus 5.5,Closed,66.44,83.74,73.3,71.1,61.2,75.1,40.2,67.3,85.89
+Gemini 4 Argon,Closed,71.2,87.71,80.94,51.56,66.4,71.48,29.53,65.55,
+GPT-5.5,Closed,45.25,82.61,59.19,60.29,68.02,68.04,38.57,60.28,
+GPT-5.6-sol,Closed,46.23,83.55,64.34,54.51,69.76,71.45,36.66,60.93,
+GPT-6 Astra,Closed,71.1,88.1,69.55,80.14,75.36,84.94,46.6,73.68,89.05
+Qwen3-VL-8B,General-purpose open,62.6,86.4,62.66,54.15,61.81,74.83,35.8,62.61,88.94
+Qwen3.5-9B,General-purpose open,72.0,90.35,53.46,57.76,68.33,78.65,39.47,65.72,89.98
+RynnBrain-8B,Open embodied,68.0,11.7,70.0,56.68,65.58,79.29,15.5,52.39,66.54
+RoboBrain 2.5-8B,Open embodied,64.0,78.8,63.71,59.21,59.27,76.33,56.24,65.37,69.53
+Embodied-R1.5-8B,Open embodied,77.0,81.7,68.96,57.04,71.38,83.43,37.21,68.1,86.3
+SenseNova-SI 1.1-8B,Open embodied,47.0,59.2,59.65,29.78,51.83,50.71,25.98,46.31,81.84
+PhysBrain 1.5-8B,Open embodied,76.3,85.63,69.74,55.6,69.86,81.24,33.47,67.41,82.25
+ACE-Brain-0.6,Open embodied,81.44,86.96,76.56,71.84,74.13,88.14,48.82,75.41,83.27
+

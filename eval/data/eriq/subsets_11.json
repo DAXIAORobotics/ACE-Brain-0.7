@@ -1,0 +1,68 @@
+{
+ "source": "KineMind/ERIQ (Hugging Face), revision f9fc928f9b0b8d349d77516d173c1a1df8895c32",
+ "license": "CC BY-SA 4.0",
+ "n_questions": 3905,
+ "subsets": [
+  {
+   "name": "ACTION_UNDERSTANDING",
+   "dim": "planning_monitoring",
+   "n": 600
+  },
+  {
+   "name": "FINE_GRAINED_PLAN",
+   "dim": "planning_monitoring",
+   "n": 112
+  },
+  {
+   "name": "HUMAN_INTENTION",
+   "dim": "human_intent",
+   "n": 225
+  },
+  {
+   "name": "HUMAN_INTERACTION",
+   "dim": "human_intent",
+   "n": 227
+  },
+  {
+   "name": "MISTAKE_CLASSIFY",
+   "dim": "error_detect_recover",
+   "n": 116
+  },
+  {
+   "name": "MISTAKE_EXISTENCE",
+   "dim": "error_detect_recover",
+   "n": 334
+  },
+  {
+   "name": "MISTAKE_RECOVERY",
+   "dim": "error_detect_recover",
+   "n": 105
+  },
+  {
+   "name": "SUBTASK_PLANNING",
+   "dim": "planning_monitoring",
+   "n": 600
+  },
+  {
+   "name": "SUCCESS_DETECTION",
+   "dim": "planning_monitoring",
+   "n": 800
+  },
+  {
+   "name": "TASK_PROGRESS",
+   "dim": "planning_monitoring",
+   "n": 281
+  },
+  {
+   "name": "TRAJ_UNDERSTANDING",
+   "dim": "planning_monitoring",
+   "n": 505
+  }
+ ],
+ "excluded_spatial_subsets": [
+  "DUALVIEW_MATCHING",
+  "RELATIVE_POS_GROUNDING",
+  "SCENE_UNDERSTANDING",
+  "TASK_GROUNDING"
+ ]
+}

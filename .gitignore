@@ -1,0 +1,13 @@
+# Hugging Face archives and local artefacts
+*.tar.gz
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.pytest_cache/
+*.egg-info/
+# evaluation outputs and large benchmark data (data lives on the Hugging Face dataset; manifests under eval/data stay tracked)
+eval/results/
+eval/raw/
+eval/data/*/images/
+eval/data/cosmos/data/

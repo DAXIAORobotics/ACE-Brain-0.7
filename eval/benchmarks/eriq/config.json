@@ -1,0 +1,12 @@
+{
+  "benchmark": "eriq",
+  "data_subdir": "eriq",
+  "items": "items.jsonl",
+  "image_root": "images",
+  "generation": {
+    "temperature": 0.0, "max_tokens": 1024, "thinking": false,
+    "min_pixels": 65536, "max_pixels": 16777216, "seed": 0,
+    "max_model_len": 32768, "max_images": 10, "batch_size": 64
+  },
+  "n_items": 3905
+}

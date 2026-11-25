@@ -1,0 +1,1341 @@
+{
+ "assets": [
+  {
+   "path": "assets/cases/case-01/f1.webp",
+   "case": "case-01",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-02/f1.webp",
+   "case": "case-02",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-03/f1.webp",
+   "case": "case-03",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-04/f1.webp",
+   "case": "case-04",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-05/f1.webp",
+   "case": "case-05",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-05/f2.webp",
+   "case": "case-05",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-05/f3.webp",
+   "case": "case-05",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-05/f4.webp",
+   "case": "case-05",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-05/f5.webp",
+   "case": "case-05",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-05/f6.webp",
+   "case": "case-05",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-05/f7.webp",
+   "case": "case-05",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-06/f1.webp",
+   "case": "case-06",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-06/f2.webp",
+   "case": "case-06",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-06/f3.webp",
+   "case": "case-06",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-06/f4.webp",
+   "case": "case-06",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-06/f5.webp",
+   "case": "case-06",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-06/f6.webp",
+   "case": "case-06",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-06/f7.webp",
+   "case": "case-06",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-06/f8.webp",
+   "case": "case-06",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-07/f1.webp",
+   "case": "case-07",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-07/f2.webp",
+   "case": "case-07",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-07/f3.webp",
+   "case": "case-07",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-07/f4.webp",
+   "case": "case-07",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-07/f5.webp",
+   "case": "case-07",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-08/f1.webp",
+   "case": "case-08",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-08/f2.webp",
+   "case": "case-08",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-08/f3.webp",
+   "case": "case-08",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-08/f4.webp",
+   "case": "case-08",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-08/f5.webp",
+   "case": "case-08",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-08/f6.webp",
+   "case": "case-08",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-08/f7.webp",
+   "case": "case-08",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-08/f8.webp",
+   "case": "case-08",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-09/f1.webp",
+   "case": "case-09",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-09/f2.webp",
+   "case": "case-09",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-09/f3.webp",
+   "case": "case-09",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-09/f4.webp",
+   "case": "case-09",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-10/f1.webp",
+   "case": "case-10",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-10/f2.webp",
+   "case": "case-10",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-10/f3.webp",
+   "case": "case-10",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-10/f4.webp",
+   "case": "case-10",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-11/f1.webp",
+   "case": "case-11",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-11/f2.webp",
+   "case": "case-11",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-12/f1.webp",
+   "case": "case-12",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-12/f2.webp",
+   "case": "case-12",
+   "dataset": "RoboBench",
+   "license": "CC BY 4.0",
+   "url": "https://robo-bench.github.io/",
+   "attribution": "RoboBench (arXiv:2510.17801); frames originate from DROID (CC BY 4.0)",
+   "modification": "frames resized and re-encoded as WebP; Q1/Q2 prompts and references use the natural-language version described in the paper"
+  },
+  {
+   "path": "assets/cases/case-13/f1.webp",
+   "case": "case-13",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-13/f2.webp",
+   "case": "case-13",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-13/f3.webp",
+   "case": "case-13",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-13/f4.webp",
+   "case": "case-13",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-13/f5.webp",
+   "case": "case-13",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-13/f6.webp",
+   "case": "case-13",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-13/f7.webp",
+   "case": "case-13",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-13/f8.webp",
+   "case": "case-13",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-14/f1.webp",
+   "case": "case-14",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-14/f2.webp",
+   "case": "case-14",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-14/f3.webp",
+   "case": "case-14",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-14/f4.webp",
+   "case": "case-14",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-14/f5.webp",
+   "case": "case-14",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-14/f6.webp",
+   "case": "case-14",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-14/f7.webp",
+   "case": "case-14",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-14/f8.webp",
+   "case": "case-14",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-15/f1.webp",
+   "case": "case-15",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-15/f2.webp",
+   "case": "case-15",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-15/f3.webp",
+   "case": "case-15",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-15/f4.webp",
+   "case": "case-15",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-15/f5.webp",
+   "case": "case-15",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-15/f6.webp",
+   "case": "case-15",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-15/f7.webp",
+   "case": "case-15",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-15/f8.webp",
+   "case": "case-15",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-16/f1.webp",
+   "case": "case-16",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-16/f2.webp",
+   "case": "case-16",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-16/f3.webp",
+   "case": "case-16",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-16/f4.webp",
+   "case": "case-16",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-16/f5.webp",
+   "case": "case-16",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-16/f6.webp",
+   "case": "case-16",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-16/f7.webp",
+   "case": "case-16",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-16/f8.webp",
+   "case": "case-16",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-17/f1.webp",
+   "case": "case-17",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-17/f2.webp",
+   "case": "case-17",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-17/f3.webp",
+   "case": "case-17",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-17/f4.webp",
+   "case": "case-17",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-17/f5.webp",
+   "case": "case-17",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-17/f6.webp",
+   "case": "case-17",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-17/f7.webp",
+   "case": "case-17",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-17/f8.webp",
+   "case": "case-17",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-18/f1.webp",
+   "case": "case-18",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-18/f2.webp",
+   "case": "case-18",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-18/f3.webp",
+   "case": "case-18",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-18/f4.webp",
+   "case": "case-18",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-18/f5.webp",
+   "case": "case-18",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-18/f6.webp",
+   "case": "case-18",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-18/f7.webp",
+   "case": "case-18",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-18/f8.webp",
+   "case": "case-18",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-19/f1.webp",
+   "case": "case-19",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-19/f2.webp",
+   "case": "case-19",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-19/f3.webp",
+   "case": "case-19",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-19/f4.webp",
+   "case": "case-19",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-19/f5.webp",
+   "case": "case-19",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-19/f6.webp",
+   "case": "case-19",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-19/f7.webp",
+   "case": "case-19",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-19/f8.webp",
+   "case": "case-19",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-20/f1.webp",
+   "case": "case-20",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-20/f2.webp",
+   "case": "case-20",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-20/f3.webp",
+   "case": "case-20",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-20/f4.webp",
+   "case": "case-20",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-20/f5.webp",
+   "case": "case-20",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-20/f6.webp",
+   "case": "case-20",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-20/f7.webp",
+   "case": "case-20",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-20/f8.webp",
+   "case": "case-20",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-21/f1.webp",
+   "case": "case-21",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-21/f2.webp",
+   "case": "case-21",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-21/f3.webp",
+   "case": "case-21",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-21/f4.webp",
+   "case": "case-21",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-21/f5.webp",
+   "case": "case-21",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-21/f6.webp",
+   "case": "case-21",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-21/f7.webp",
+   "case": "case-21",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-21/f8.webp",
+   "case": "case-21",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-22/f1.webp",
+   "case": "case-22",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-22/f2.webp",
+   "case": "case-22",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-22/f3.webp",
+   "case": "case-22",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-22/f4.webp",
+   "case": "case-22",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-22/f5.webp",
+   "case": "case-22",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-22/f6.webp",
+   "case": "case-22",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-22/f7.webp",
+   "case": "case-22",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-22/f8.webp",
+   "case": "case-22",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-23/f1.webp",
+   "case": "case-23",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-23/f2.webp",
+   "case": "case-23",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-23/f3.webp",
+   "case": "case-23",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-23/f4.webp",
+   "case": "case-23",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-23/f5.webp",
+   "case": "case-23",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-23/f6.webp",
+   "case": "case-23",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-23/f7.webp",
+   "case": "case-23",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-23/f8.webp",
+   "case": "case-23",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-24/f1.webp",
+   "case": "case-24",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-24/f2.webp",
+   "case": "case-24",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-24/f3.webp",
+   "case": "case-24",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-24/f4.webp",
+   "case": "case-24",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-24/f5.webp",
+   "case": "case-24",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-24/f6.webp",
+   "case": "case-24",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-24/f7.webp",
+   "case": "case-24",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-24/f8.webp",
+   "case": "case-24",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-25/f1.webp",
+   "case": "case-25",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-25/f2.webp",
+   "case": "case-25",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-25/f3.webp",
+   "case": "case-25",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-25/f4.webp",
+   "case": "case-25",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-25/f5.webp",
+   "case": "case-25",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-25/f6.webp",
+   "case": "case-25",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-25/f7.webp",
+   "case": "case-25",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  },
+  {
+   "path": "assets/cases/case-25/f8.webp",
+   "case": "case-25",
+   "dataset": "RoboFAC",
+   "license": "MIT",
+   "url": "https://huggingface.co/datasets/MINT-SJTU/RoboFAC-dataset",
+   "attribution": "RoboFAC, MINT-SJTU (arXiv:2505.12224)",
+   "modification": "frames resized and re-encoded as WebP"
+  }
+ ],
+ "figures": {
+  "path": "assets/figures/",
+  "source": "Figures of the ACE-Brain-0.7 paper, re-encoded as WebP; case cards and overview frames are crops of those figures.",
+  "note": "Frames inside the figures come from the datasets cited in the paper and remain under their original licences."
+ }
+}

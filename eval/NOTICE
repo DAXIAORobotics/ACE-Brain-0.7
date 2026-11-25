@@ -1,0 +1,6 @@
+TaskBench evaluation harness
+Copyright 2026 the authors
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Third-party material keeps its own notices: see LICENSES.md, benchmarks/cosmos/vendor/NOTICE and data/*/LICENSE-NOTICE.md.

@@ -1,0 +1,1420 @@
+{
+ "note": "Cases are sampled with a fixed random seed from benchmark items that ACE-Brain-0.7 answers correctly; the answers of the other models were not a selection criterion. Answers are the saved evaluation outputs.",
+ "cases": [
+  {
+   "id": "case-01",
+   "capability": "Plan",
+   "benchmark": "RoboBench",
+   "type": "Task decomposition",
+   "frames": [
+    {
+     "src": "assets/cases/case-01/f1.webp",
+     "w": 320,
+     "h": 180
+    }
+   ],
+   "frames_note": "The image shows the current scene.",
+   "question": "The image shows the current scene.\nThe task is performed with one robotic arm.\nTask: placing a towel inside a cabinet\n\nBased on the scene and the task goal, break the task down into an ordered sequence of concrete subtasks. Write a numbered list of short natural-language instructions. Specify the relevant objects, destinations, and directions.",
+   "reference": "1. Move the empty gripper to the towel.\n2. Grasp the towel.\n3. Pick up the towel.\n4. Move the towel to the cabinet.\n5. Place the towel at the cabinet.",
+   "metric": "judge",
+   "answers": {
+    "ours": {
+     "text": "1. Move the empty gripper to the towel.\n2. Grasp the towel.\n3. Pick up the towel.\n4. Move the towel toward the cabinet.\n5. Place the towel inside the cabinet.",
+     "score": 100.0
+    },
+    "astra": {
+     "text": "1. Move the robotic gripper down toward the white towel with red and blue stripes on the table.\n2. Grasp the towel near its center to keep it gathered.\n3. Lift the towel clear of the table.\n4. Move the towel toward the open upper compartment of the cabinet.\n5. Push the towel through the opening and lower it onto the compartment’s shelf.\n6. Release the towel inside the cabinet.\n7. Withdraw the gripper from the cabinet, leaving the towel on the shelf.",
+     "score": 100.0
+    },
+    "opus": {
+     "text": "1. Move the gripper down from its position above the cabinet stack toward the middle cabinet's door handle.\n2. Grasp the middle cabinet's door handle.\n3. Pull the door open, swinging it outward toward the table, until the opening is wide enough for the towel.\n4. Release the handle and move the gripper away from the door.\n5. Move the gripper over the crumpled towel on the front-left side of the round white table.\n6. Lower the gripper and grasp the towel firmly, gathering it into a compact bundle.\n7. Lift the towel up off the table.\n8. Carry the towel toward the open middle cabinet.\n9. Insert the towel through the opening into the cabinet.\n10. Release the towel so it rests on the cabinet floor.\n11. Withdraw the gripper from the cabinet without dragging the towel out.\n12. Push the cabinet door closed so the towel is enclosed inside.\n13. Move the gripper back to its home position above the cabinets.",
+     "score": 100.0
+    }
+   },
+   "credit": "RoboBench, CC BY 4.0; frames from DROID (CC BY 4.0)"
+  },
+  {
+   "id": "case-02",
+   "capability": "Plan",
+   "benchmark": "RoboBench",
+   "type": "Task decomposition",
+   "frames": [
+    {
+     "src": "assets/cases/case-02/f1.webp",
+     "w": 320,
+     "h": 180
+    }
+   ],
+   "frames_note": "The image shows the current scene.",
+   "question": "The image shows the current scene.\nThe task is performed with one robotic arm.\nTask: storing a towel in a cabinet\n\nBased on the scene and the task goal, break the task down into an ordered sequence of concrete subtasks. Write a numbered list of short natural-language instructions. Specify the relevant objects, destinations, and directions.",
+   "reference": "1. Move the empty gripper to the towel.\n2. Grasp the towel.\n3. Pick up the towel.\n4. Move the towel to the cabinet.\n5. Place the towel at the cabinet.",
+   "metric": "judge",
+   "answers": {
+    "ours": {
+     "text": "1. Move the empty gripper to the towel.\n2. Grasp the towel.\n3. Pick up the towel.\n4. Move the towel toward the cabinet.\n5. Place the towel inside the cabinet.",
+     "score": 100.0
+    },
+    "astra": {
+     "text": "1. Move the robotic arm toward the folded white towel with red stripes on the front-right side of the round table.\n2. Lower the gripper and grasp the towel securely near its center.\n3. Lift the towel clear of the table.\n4. Move the towel upward and toward the open middle compartment of the cabinet.\n5. Carry the towel through the cabinet opening and lower it onto the shelf.\n6. Release the towel and withdraw the gripper from the cabinet.\n7. Push the open cabinet door closed.",
+     "score": 100.0
+    },
+    "opus": {
+     "text": "1. Move the robotic arm over the folded red-striped towel at the front of the table.\n2. Grasp the towel firmly along its folded edge.\n3. Lift the towel off the table.\n4. Carry the towel toward the open middle compartment of the cabinet.\n5. Insert the towel into the middle compartment, placing it on the shelf beside the items already there.\n6. Release the towel and withdraw the arm from the compartment.\n7. Push the left door of the middle compartment closed.\n8. Push the right door of the middle compartment closed.",
+     "score": 100.0
+    }
+   },
+   "credit": "RoboBench, CC BY 4.0; frames from DROID (CC BY 4.0)"
+  },
+  {
+   "id": "case-03",
+   "capability": "Plan",
+   "benchmark": "RoboBench",
+   "type": "Task decomposition",
+   "frames": [
+    {
+     "src": "assets/cases/case-03/f1.webp",
+     "w": 320,
+     "h": 180
+    }
+   ],
+   "frames_note": "The image shows the current scene.",
+   "question": "The image shows the current scene.\nThe task is performed with one robotic arm.\nTask: pick up a ball from a racket and drop it on the floor\n\nBased on the scene and the task goal, break the task down into an ordered sequence of concrete subtasks. Write a numbered list of short natural-language instructions. Specify the relevant objects, destinations, and directions.",
+   "reference": "1. Move the ball to the racket.\n2. Grasp the ball.\n3. Pick up the ball.\n4. Move the empty gripper to the racket.\n5. Place the ball at no object.",
+   "metric": "judge",
+   "answers": {
+    "ours": {
+     "text": "1. Move the empty gripper to the ball on the racket.\n2. Grasp the ball.\n3. Pick up the ball from the racket.\n4. Move the ball toward the floor.\n5. Drop the ball on the floor.",
+     "score": 100.0
+    },
+    "astra": {
+     "text": "1. Move the robotic gripper above the green ball resting on the racket’s strings.\n2. Lower the gripper toward the ball and close it gently around the ball.\n3. Lift the ball vertically until it clears the racket’s rim.\n4. Move the gripper left, away from the racket and table, over an open area of the floor.\n5. Open the gripper to release the ball onto the floor.",
+     "score": 100.0
+    },
+    "opus": {
+     "text": "1. Move the robotic arm over the tennis racket on the table at the right.\n2. Position the gripper directly above the green ball resting on the racket strings.\n3. Open the gripper.\n4. Lower the gripper down to the ball.\n5. Close the gripper to grasp the ball firmly.\n6. Lift the ball straight up off the racket.\n7. Move the arm sideways, away from the table, until the ball is over open floor space.\n8. Open the gripper to release the ball so it drops onto the floor.\n9. Move the arm back up to a safe neutral position.",
+     "score": 100.0
+    }
+   },
+   "credit": "RoboBench, CC BY 4.0; frames from DROID (CC BY 4.0)"
+  },
+  {
+   "id": "case-04",
+   "capability": "Plan",
+   "benchmark": "RoboBench",
+   "type": "Task decomposition",
+   "frames": [
+    {
+     "src": "assets/cases/case-04/f1.webp",
+     "w": 320,
+     "h": 180
+    }
+   ],
+   "frames_note": "The image shows the current scene.",
+   "question": "The image shows the current scene.\nThe task is performed with one robotic arm.\nTask: inserting a rope into a channel\n\nBased on the scene and the task goal, break the task down into an ordered sequence of concrete subtasks. Write a numbered list of short natural-language instructions. Specify the relevant objects, destinations, and directions.",
+   "reference": "1. Move the empty gripper to the end of rope.\n2. Grasp the end of rope.\n3. Pick up the end of rope.\n4. Move the end of rope to the channel right.\n5. Insert the end of rope into the channel right.",
+   "metric": "judge",
+   "answers": {
+    "ours": {
+     "text": "1. Move the empty gripper to the rope.\n2. Grasp the rope.\n3. Pick up the rope.\n4. Move the rope toward the channel.\n5. Insert the rope into the channel.",
+     "score": 100.0
+    },
+    "astra": {
+     "text": "1. Move the gripper above the loose white rope on the wooden table.\n2. Lower the gripper and grasp the rope near its free end on the right.\n3. Lift that end and move it over the near end of the black channel, at the lower-left side of the table.\n4. Align the rope end with the channel’s groove and lower it into the opening.\n5. Feed the rope along the groove toward the far end of the channel, in the upper-right direction.\n6. Release and regrasp the rope as needed, pressing successive sections into the groove until the rope is seated in the channel.\n7. Release the rope and lift the gripper clear.",
+     "score": 100.0
+    },
+    "opus": {
+     "text": "1. Move the robotic arm above the white rope's free end, the one curving out to the right of the black channel.\n2. Grasp the rope near the point where it leaves the channel, at the near (bottom-left) end of the channel.\n3. Lift that section slightly and align it over the channel's groove.\n4. Press that section down into the groove so it seats securely.\n5. Slide the gripper a short distance along the rope toward its free end.\n6. Grasp the rope again, align it over the groove, and press it in further up the channel, toward the far end.\n7. Repeat the grasp, align, and press steps, working along the channel until the whole rope lies inside it, including the free end.\n8. Release the rope and move the arm up and away from the channel.\n9. Check that no part of the rope is sticking out of the channel, and press back any loose sections.",
+     "score": 100.0
+    }
+   },
+   "credit": "RoboBench, CC BY 4.0; frames from DROID (CC BY 4.0)"
+  },
+  {
+   "id": "case-05",
+   "capability": "Anticipate",
+   "benchmark": "RoboBench",
+   "type": "Next sub-task",
+   "frames": [
+    {
+     "src": "assets/cases/case-05/f1.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-05/f2.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-05/f3.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-05/f4.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-05/f5.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-05/f6.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-05/f7.webp",
+     "w": 320,
+     "h": 180
+    }
+   ],
+   "frames_note": "7 frames in temporal order.",
+   "question": "The 7 images show the task progress in chronological order. The last image is the current view.\nThe task is performed with one robotic arm.\nTask: Put the black clothing in the cardboard box\n\nBased on the observed progress and the task goal, what subtask should be performed next? Answer with one short natural-language instruction. Include the relevant object and destination or direction when needed.",
+   "reference": "Grasp the black clothing.",
+   "metric": "judge",
+   "answers": {
+    "ours": {
+     "text": "Grasp the black clothing.",
+     "score": 100.0
+    },
+    "astra": {
+     "text": "Lower the gripper and grasp the black clothing on the sofa.",
+     "score": 100.0
+    },
+    "opus": {
+     "text": "Grasp the black clothing and lift it out of the box it is lying on.",
+     "score": 33.3
+    }
+   },
+   "credit": "RoboBench, CC BY 4.0; frames from DROID (CC BY 4.0)"
+  },
+  {
+   "id": "case-06",
+   "capability": "Anticipate",
+   "benchmark": "RoboBench",
+   "type": "Next sub-task",
+   "frames": [
+    {
+     "src": "assets/cases/case-06/f1.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-06/f2.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-06/f3.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-06/f4.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-06/f5.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-06/f6.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-06/f7.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-06/f8.webp",
+     "w": 320,
+     "h": 180
+    }
+   ],
+   "frames_note": "8 frames in temporal order.",
+   "question": "The 8 images show the task progress in chronological order. The last image is the current view.\nThe task is performed with one robotic arm.\nTask: pouring contents from a mug into a bowl\n\nBased on the observed progress and the task goal, what subtask should be performed next? Answer with one short natural-language instruction. Include the relevant object and destination or direction when needed.",
+   "reference": "Pick up the mug.",
+   "metric": "judge",
+   "answers": {
+    "ours": {
+     "text": "Pick up the mug.",
+     "score": 100.0
+    },
+    "astra": {
+     "text": "Grasp the mug by its handle and lift it over the bowl.",
+     "score": 33.3
+    },
+    "opus": {
+     "text": "Grasp the white mug on the table.",
+     "score": 33.3
+    }
+   },
+   "credit": "RoboBench, CC BY 4.0; frames from DROID (CC BY 4.0)"
+  },
+  {
+   "id": "case-07",
+   "capability": "Anticipate",
+   "benchmark": "RoboBench",
+   "type": "Next sub-task",
+   "frames": [
+    {
+     "src": "assets/cases/case-07/f1.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-07/f2.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-07/f3.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-07/f4.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-07/f5.webp",
+     "w": 320,
+     "h": 180
+    }
+   ],
+   "frames_note": "5 frames in temporal order.",
+   "question": "The 5 images show the task progress in chronological order. The last image is the current view.\nThe task is performed with one robotic arm.\nTask: Put the black socks in a white paper bag\n\nBased on the observed progress and the task goal, what subtask should be performed next? Answer with one short natural-language instruction. Include the relevant object and destination or direction when needed.",
+   "reference": "Move the black socks to the white paper bag.",
+   "metric": "judge",
+   "answers": {
+    "ours": {
+     "text": "Move the black socks to the white paper bag.",
+     "score": 100.0
+    },
+    "astra": {
+     "text": "Place the held black socks into the white paper bag.",
+     "score": 33.3
+    },
+    "opus": {
+     "text": "Place the black sock you're holding into the white paper bag.",
+     "score": 33.3
+    }
+   },
+   "credit": "RoboBench, CC BY 4.0; frames from DROID (CC BY 4.0)"
+  },
+  {
+   "id": "case-08",
+   "capability": "Anticipate",
+   "benchmark": "RoboBench",
+   "type": "Next sub-task",
+   "frames": [
+    {
+     "src": "assets/cases/case-08/f1.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-08/f2.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-08/f3.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-08/f4.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-08/f5.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-08/f6.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-08/f7.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-08/f8.webp",
+     "w": 320,
+     "h": 180
+    }
+   ],
+   "frames_note": "8 frames in temporal order.",
+   "question": "The 8 images show the task progress in chronological order. The last image is the current view.\nThe task is performed with one robotic arm.\nTask: placing bread into a drawer\n\nBased on the observed progress and the task goal, what subtask should be performed next? Answer with one short natural-language instruction. Include the relevant object and destination or direction when needed.",
+   "reference": "Pick up the bread.",
+   "metric": "judge",
+   "answers": {
+    "ours": {
+     "text": "Pick up the bread.",
+     "score": 100.0
+    },
+    "astra": {
+     "text": "Grasp the bread beside the red drawer and lift it up.",
+     "score": 33.3
+    },
+    "opus": {
+     "text": "The gripper has reached the bread, so the next step is to pick it up.\n\n**Next subtask:** Grasp the bread.",
+     "score": 33.3
+    }
+   },
+   "credit": "RoboBench, CC BY 4.0; frames from DROID (CC BY 4.0)"
+  },
+  {
+   "id": "case-09",
+   "capability": "Monitor",
+   "benchmark": "RoboBench",
+   "type": "Step completion",
+   "frames": [
+    {
+     "src": "assets/cases/case-09/f1.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-09/f2.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-09/f3.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-09/f4.webp",
+     "w": 320,
+     "h": 180
+    }
+   ],
+   "frames_note": "4 frames in temporal order.",
+   "question": "With <placing a screwdriver into an open drawer and closing the drawer> as the goal, steps so far are shown in the video, is step 2-grasp(screwdriver) finished?",
+   "reference": "no",
+   "metric": "correct",
+   "answers": {
+    "ours": {
+     "text": "no",
+     "correct": true
+    },
+    "astra": {
+     "text": "No",
+     "correct": true
+    },
+    "opus": {
+     "text": "No",
+     "correct": true
+    }
+   },
+   "credit": "RoboBench, CC BY 4.0; frames from DROID (CC BY 4.0)"
+  },
+  {
+   "id": "case-10",
+   "capability": "Monitor",
+   "benchmark": "RoboBench",
+   "type": "Step completion",
+   "frames": [
+    {
+     "src": "assets/cases/case-10/f1.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-10/f2.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-10/f3.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-10/f4.webp",
+     "w": 320,
+     "h": 180
+    }
+   ],
+   "frames_note": "4 frames in temporal order.",
+   "question": "With <Stir the food in the pot and cover it with a lid> as the goal, steps so far are shown in the video, is step 1-move_to(none, spoon) finished?",
+   "reference": "no",
+   "metric": "correct",
+   "answers": {
+    "ours": {
+     "text": "no",
+     "correct": true
+    },
+    "astra": {
+     "text": "Yes",
+     "correct": false
+    },
+    "opus": {
+     "text": "Yes",
+     "correct": false
+    }
+   },
+   "credit": "RoboBench, CC BY 4.0; frames from DROID (CC BY 4.0)"
+  },
+  {
+   "id": "case-11",
+   "capability": "Monitor",
+   "benchmark": "RoboBench",
+   "type": "Step completion",
+   "frames": [
+    {
+     "src": "assets/cases/case-11/f1.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-11/f2.webp",
+     "w": 320,
+     "h": 180
+    }
+   ],
+   "frames_note": "2 frames in temporal order.",
+   "question": "With <reposition a box next to a pencil> as the goal, steps so far are shown in the video, is step 1-move_to(none, box) finished?",
+   "reference": "no",
+   "metric": "correct",
+   "answers": {
+    "ours": {
+     "text": "no",
+     "correct": true
+    },
+    "astra": {
+     "text": "No",
+     "correct": true
+    },
+    "opus": {
+     "text": "No",
+     "correct": true
+    }
+   },
+   "credit": "RoboBench, CC BY 4.0; frames from DROID (CC BY 4.0)"
+  },
+  {
+   "id": "case-12",
+   "capability": "Monitor",
+   "benchmark": "RoboBench",
+   "type": "Step completion",
+   "frames": [
+    {
+     "src": "assets/cases/case-12/f1.webp",
+     "w": 320,
+     "h": 180
+    },
+    {
+     "src": "assets/cases/case-12/f2.webp",
+     "w": 320,
+     "h": 180
+    }
+   ],
+   "frames_note": "2 frames in temporal order.",
+   "question": "With <this bowl will be used for something else> as the goal, steps so far are shown in the video, is step 1-move_to(none, pen) finished?",
+   "reference": "no",
+   "metric": "correct",
+   "answers": {
+    "ours": {
+     "text": "no",
+     "correct": true
+    },
+    "astra": {
+     "text": "No",
+     "correct": true
+    },
+    "opus": {
+     "text": "No",
+     "correct": true
+    }
+   },
+   "credit": "RoboBench, CC BY 4.0; frames from DROID (CC BY 4.0)"
+  },
+  {
+   "id": "case-13",
+   "capability": "Diagnose",
+   "benchmark": "RoboFAC",
+   "type": "Failure detection",
+   "frames": [
+    {
+     "src": "assets/cases/case-13/f1.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-13/f2.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-13/f3.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-13/f4.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-13/f5.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-13/f6.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-13/f7.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-13/f8.webp",
+     "w": 448,
+     "h": 336
+    }
+   ],
+   "frames_note": "8 frames in temporal order; the last is the current view.",
+   "question": "These 8 images are frames of a robot video, in temporal order; the last one is the current view.\nPlease assess if the robotic arm has successfully accomplished the task. Answer yes or no.",
+   "reference": "no",
+   "metric": "correct",
+   "answers": {
+    "ours": {
+     "text": "no",
+     "correct": true
+    },
+    "astra": {
+     "text": "No.",
+     "correct": true
+    },
+    "opus": {
+     "text": "**No.** The robot only moved the L-shaped tool to the right. The blue cube stayed where it was the whole time. The task isn't stated, but if it was to use the L-shaped hook to move the cube, it wasn't accomplished.",
+     "correct": true
+    }
+   },
+   "credit": "RoboFAC (MINT-SJTU), MIT License"
+  },
+  {
+   "id": "case-14",
+   "capability": "Diagnose",
+   "benchmark": "RoboFAC",
+   "type": "Failure detection",
+   "frames": [
+    {
+     "src": "assets/cases/case-14/f1.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-14/f2.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-14/f3.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-14/f4.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-14/f5.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-14/f6.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-14/f7.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-14/f8.webp",
+     "w": 448,
+     "h": 336
+    }
+   ],
+   "frames_note": "8 frames in temporal order; the last is the current view.",
+   "question": "These 8 images are frames of a robot video, in temporal order; the last one is the current view.\nIn the video, the robotic arm executes a task, can you determine whether it was successful? Answer yes or no.",
+   "reference": "yes",
+   "metric": "correct",
+   "answers": {
+    "ours": {
+     "text": "yes",
+     "correct": true
+    },
+    "astra": {
+     "text": "Yes.",
+     "correct": true
+    },
+    "opus": {
+     "text": "**Yes.** The arm picked up the blue cylinder and inserted it vertically into the middle hole of the white stand. In the final frame the cylinder stays upright in the hole after the arm has withdrawn.",
+     "correct": true
+    }
+   },
+   "credit": "RoboFAC (MINT-SJTU), MIT License"
+  },
+  {
+   "id": "case-15",
+   "capability": "Diagnose",
+   "benchmark": "RoboFAC",
+   "type": "Failure detection",
+   "frames": [
+    {
+     "src": "assets/cases/case-15/f1.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-15/f2.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-15/f3.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-15/f4.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-15/f5.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-15/f6.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-15/f7.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-15/f8.webp",
+     "w": 448,
+     "h": 336
+    }
+   ],
+   "frames_note": "8 frames in temporal order; the last is the current view.",
+   "question": "These 8 images are frames of a robot video, in temporal order; the last one is the current view.\nIn the video, the robotic arm executes a task, was it successful? Answer yes or no.",
+   "reference": "no",
+   "metric": "correct",
+   "answers": {
+    "ours": {
+     "text": "no",
+     "correct": true
+    },
+    "astra": {
+     "text": "No.",
+     "correct": true
+    },
+    "opus": {
+     "text": "No. The arm picks up the red \"B\" cube and moves it over the box, but in frame 6 the cube is sitting on the mat in front of the box rather than inside it. It either fell or was released outside. The arm then returns to its starting position with the cube still outside the box, so the task of placing the cube in the box was not completed.",
+     "correct": true
+    }
+   },
+   "credit": "RoboFAC (MINT-SJTU), MIT License"
+  },
+  {
+   "id": "case-16",
+   "capability": "Diagnose",
+   "benchmark": "RoboFAC",
+   "type": "Failure identification",
+   "frames": [
+    {
+     "src": "assets/cases/case-16/f1.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-16/f2.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-16/f3.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-16/f4.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-16/f5.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-16/f6.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-16/f7.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-16/f8.webp",
+     "w": 448,
+     "h": 336
+    }
+   ],
+   "frames_note": "8 frames in temporal order; the last is the current view.",
+   "question": "These 8 images are frames of a robot video, in temporal order; the last one is the current view.\nFrom the video of the robotic arm performing a task, what kind of error can be observed during the task?\nA. Wrong target object.\nB. Orientation deviation.\nC. Position deviation.\nD. Grasping error.\nE. Step omission.\nF. Timing error.\nAnswer with the letter only.",
+   "reference": "B",
+   "metric": "correct",
+   "answers": {
+    "ours": {
+     "text": "B",
+     "correct": true
+    },
+    "astra": {
+     "text": "C",
+     "correct": false
+    },
+    "opus": {
+     "text": "B",
+     "correct": true
+    }
+   },
+   "credit": "RoboFAC (MINT-SJTU), MIT License"
+  },
+  {
+   "id": "case-17",
+   "capability": "Diagnose",
+   "benchmark": "RoboFAC",
+   "type": "Failure identification",
+   "frames": [
+    {
+     "src": "assets/cases/case-17/f1.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-17/f2.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-17/f3.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-17/f4.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-17/f5.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-17/f6.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-17/f7.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-17/f8.webp",
+     "w": 448,
+     "h": 336
+    }
+   ],
+   "frames_note": "8 frames in temporal order; the last is the current view.",
+   "question": "These 8 images are frames of a robot video, in temporal order; the last one is the current view.\nBased on the video of the robotic arm carrying out a task, what type of error took place during the task?\nA. Grasping error.\nB. Wrong target object.\nC. Step omission.\nD. Orientation deviation.\nE. Position deviation.\nF. Timing error.\nAnswer with the letter only.",
+   "reference": "E",
+   "metric": "correct",
+   "answers": {
+    "ours": {
+     "text": "E",
+     "correct": true
+    },
+    "astra": {
+     "text": "A",
+     "correct": false
+    },
+    "opus": {
+     "text": "E",
+     "correct": true
+    }
+   },
+   "credit": "RoboFAC (MINT-SJTU), MIT License"
+  },
+  {
+   "id": "case-18",
+   "capability": "Diagnose",
+   "benchmark": "RoboFAC",
+   "type": "Failure identification",
+   "frames": [
+    {
+     "src": "assets/cases/case-18/f1.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-18/f2.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-18/f3.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-18/f4.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-18/f5.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-18/f6.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-18/f7.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-18/f8.webp",
+     "w": 448,
+     "h": 336
+    }
+   ],
+   "frames_note": "8 frames in temporal order; the last is the current view.",
+   "question": "These 8 images are frames of a robot video, in temporal order; the last one is the current view.\nPlease describe the error type that occurred during the robotic arm's execution of the task.\nA. Step omission.\nB. Wrong target object.\nC. Orientation deviation.\nD. Position deviation.\nE. Grasping error.\nF. Timing error.\nAnswer with the letter only.",
+   "reference": "D",
+   "metric": "correct",
+   "answers": {
+    "ours": {
+     "text": "D",
+     "correct": true
+    },
+    "astra": {
+     "text": "E",
+     "correct": false
+    },
+    "opus": {
+     "text": "E",
+     "correct": false
+    }
+   },
+   "credit": "RoboFAC (MINT-SJTU), MIT License"
+  },
+  {
+   "id": "case-19",
+   "capability": "Diagnose",
+   "benchmark": "RoboFAC",
+   "type": "Failure locating",
+   "frames": [
+    {
+     "src": "assets/cases/case-19/f1.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-19/f2.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-19/f3.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-19/f4.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-19/f5.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-19/f6.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-19/f7.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-19/f8.webp",
+     "w": 448,
+     "h": 336
+    }
+   ],
+   "frames_note": "8 frames in temporal order; the last is the current view.",
+   "question": "These 8 images are frames of a robot video, in temporal order; the last one is the current view.\nFrom the video of the robotic arm carrying out a task, identify the phase of the task where the error happened.\nA. Move the cube to the box.\nB. Lift the cube.\nC. Put down the cube in the box.\nD. Reach for the cube on the table.\nAnswer with the letter only.",
+   "reference": "D",
+   "metric": "correct",
+   "answers": {
+    "ours": {
+     "text": "D",
+     "correct": true
+    },
+    "astra": {
+     "text": "A",
+     "correct": false
+    },
+    "opus": {
+     "text": "B",
+     "correct": false
+    }
+   },
+   "credit": "RoboFAC (MINT-SJTU), MIT License"
+  },
+  {
+   "id": "case-20",
+   "capability": "Diagnose",
+   "benchmark": "RoboFAC",
+   "type": "Failure locating",
+   "frames": [
+    {
+     "src": "assets/cases/case-20/f1.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-20/f2.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-20/f3.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-20/f4.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-20/f5.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-20/f6.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-20/f7.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-20/f8.webp",
+     "w": 448,
+     "h": 336
+    }
+   ],
+   "frames_note": "8 frames in temporal order; the last is the current view.",
+   "question": "These 8 images are frames of a robot video, in temporal order; the last one is the current view.\nThe robotic arm failed to complete the task, can you locate the specific subtask in which the error occurred?\nA. Grasp the cube.\nB. Reach for the cube.\nC. Push the cube to the target position.\nAnswer with the letter only.",
+   "reference": "C",
+   "metric": "correct",
+   "answers": {
+    "ours": {
+     "text": "C",
+     "correct": true
+    },
+    "astra": {
+     "text": "C",
+     "correct": true
+    },
+    "opus": {
+     "text": "C",
+     "correct": true
+    }
+   },
+   "credit": "RoboFAC (MINT-SJTU), MIT License"
+  },
+  {
+   "id": "case-21",
+   "capability": "Diagnose",
+   "benchmark": "RoboFAC",
+   "type": "Failure locating",
+   "frames": [
+    {
+     "src": "assets/cases/case-21/f1.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-21/f2.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-21/f3.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-21/f4.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-21/f5.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-21/f6.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-21/f7.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-21/f8.webp",
+     "w": 448,
+     "h": 336
+    }
+   ],
+   "frames_note": "8 frames in temporal order; the last is the current view.",
+   "question": "These 8 images are frames of a robot video, in temporal order; the last one is the current view.\nFrom the video of the robotic arm carrying out a task, identify the phase of the task where the error happened.\nA. Lift the cylinder off the table.\nB. Reach for the cylinder on the table.\nC. Move the cylinder to the middle hole of the shelf.\nD. Rotate the cylinder to an upright position.\nAnswer with the letter only.",
+   "reference": "B",
+   "metric": "correct",
+   "answers": {
+    "ours": {
+     "text": "B",
+     "correct": true
+    },
+    "astra": {
+     "text": "A",
+     "correct": false
+    },
+    "opus": {
+     "text": "The frames show the arm reaching the cylinder, then moving toward the shelf, but the cylinder stays on the table and is only pushed slightly. That means it was never lifted, so the failure is in lifting the cylinder off the table.\n\nA",
+     "correct": false
+    }
+   },
+   "credit": "RoboFAC (MINT-SJTU), MIT License"
+  },
+  {
+   "id": "case-22",
+   "capability": "Interpret",
+   "benchmark": "RoboFAC",
+   "type": "Task identification",
+   "frames": [
+    {
+     "src": "assets/cases/case-22/f1.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-22/f2.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-22/f3.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-22/f4.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-22/f5.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-22/f6.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-22/f7.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-22/f8.webp",
+     "w": 448,
+     "h": 336
+    }
+   ],
+   "frames_note": "8 frames in temporal order; the last is the current view.",
+   "question": "These 8 images are frames of a robot video, in temporal order; the last one is the current view.\nFrom the video, what task is the robot engaged in?",
+   "reference": "Use the L-shaped tool to pull the cube back.",
+   "metric": "correct",
+   "answers": {
+    "ours": {
+     "text": "Use the L-shaped tool to pull the cube back.",
+     "correct": true
+    },
+    "astra": {
+     "text": "The robot is using a white L-shaped tool to pull the purple block across the mat toward its base.",
+     "correct": true
+    },
+    "opus": {
+     "text": "The robot is **using a tool to retrieve an out-of-reach object**. It uses the white L-shaped (hook) tool to pull the blue cube closer to itself.\n\nThe frames show the sequence:\n\n1. **Frames 1–3:** The arm starts in its folded rest pose, reaches out, and grasps the long handle of the L-shaped tool lying on the mat.\n2. **Frame 4:** It lifts the tool and carries it toward the blue cube, which sits far to the left, beyond the arm's direct reach.\n3. **Frame 5:** It lowers the tool so the short hook end sits behind the cube, on the far side from the robot.\n4. **Frame 6:** It drags the tool back toward its base, pulling the cube along with the hook.\n5. **Frames 7–8:** With the cube now much closer, it releases the tool and returns to its folded rest pose.\n\nIn short, the robot treats the L-shaped piece as a hook to sweep the distant cube into its reachable workspace.",
+     "correct": true
+    }
+   },
+   "credit": "RoboFAC (MINT-SJTU), MIT License"
+  },
+  {
+   "id": "case-23",
+   "capability": "Interpret",
+   "benchmark": "RoboFAC",
+   "type": "Task identification",
+   "frames": [
+    {
+     "src": "assets/cases/case-23/f1.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-23/f2.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-23/f3.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-23/f4.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-23/f5.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-23/f6.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-23/f7.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-23/f8.webp",
+     "w": 448,
+     "h": 336
+    }
+   ],
+   "frames_note": "8 frames in temporal order; the last is the current view.",
+   "question": "These 8 images are frames of a robot video, in temporal order; the last one is the current view.\nPlease describe the task the robot is performing in the video.",
+   "reference": "Insert the cylinder into the middle hole of the shelf.",
+   "metric": "correct",
+   "answers": {
+    "ours": {
+     "text": "Place the blue cylinder into the middle hole of the white board.",
+     "correct": true
+    },
+    "astra": {
+     "text": "The robot picks up a blue cylindrical peg from the mat, rotates it upright, and inserts it into the middle hole of the white three-hole holder. It then releases the peg and withdraws its gripper, leaving the peg in place.",
+     "correct": true
+    },
+    "opus": {
+     "text": "The robot is performing a **pick-and-insert (peg-in-hole) task**:\n\n1. **Start:** A light-blue (cyan) cylindrical object lies on its side on the dark mat, near the center-right. Below it is a white block with three circular holes. The robotic gripper is positioned at the top of the workspace.\n2. **Approach and grasp (frames 2–3):** The arm moves down toward the cylinder and closes its gripper around it.\n3. **Lift and reorient (frame 4):** The robot lifts the cylinder off the mat and begins rotating it from horizontal toward an upright orientation.\n4. **Transport and align (frame 5):** The arm extends toward the white block, holding the cylinder vertically. From the top-down view, the cylinder appears as a blue circle above the middle hole.\n5. **Insert (frame 6):** The robot lowers the cylinder into the **middle hole** of the white block.\n6. **Release and retract (frames 7–8):** The gripper opens and the arm returns to its starting position, leaving the blue cylinder standing upright in the center hole.\n\n**In summary:** the robot picks up the blue cylinder, turns it upright, and inserts it into the middle hole of the white block.",
+     "correct": true
+    }
+   },
+   "credit": "RoboFAC (MINT-SJTU), MIT License"
+  },
+  {
+   "id": "case-24",
+   "capability": "Interpret",
+   "benchmark": "RoboFAC",
+   "type": "Task identification",
+   "frames": [
+    {
+     "src": "assets/cases/case-24/f1.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-24/f2.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-24/f3.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-24/f4.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-24/f5.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-24/f6.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-24/f7.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-24/f8.webp",
+     "w": 448,
+     "h": 336
+    }
+   ],
+   "frames_note": "8 frames in temporal order; the last is the current view.",
+   "question": "These 8 images are frames of a robot video, in temporal order; the last one is the current view.\nFrom the video, what task is the robot engaged in?",
+   "reference": "Stack the red cube on the green cube.",
+   "metric": "correct",
+   "answers": {
+    "ours": {
+     "text": "Stack the red cube on the green cube.",
+     "correct": true
+    },
+    "astra": {
+     "text": "The robot is stacking the red block on top of the green block.",
+     "correct": true
+    },
+    "opus": {
+     "text": "The robot is doing a **pick-and-place stacking task**: it picks up the red \"B\" cube and stacks it on top of the green cube.\n\n1. **Frames 1–2:** The arm starts in its rest position. The red \"B\" cube and the green cube sit separately on the gray mat.\n2. **Frame 3:** The arm reaches over and grasps the red cube with its gripper.\n3. **Frame 4:** It lifts the red cube off the mat.\n4. **Frames 5–6:** It moves the red cube over the green cube, lowers it on top, and releases it.\n5. **Frames 7–8:** The arm returns to its rest position, leaving the red cube on the green cube.\n\nIn the current view, the task is complete.",
+     "correct": true
+    }
+   },
+   "credit": "RoboFAC (MINT-SJTU), MIT License"
+  },
+  {
+   "id": "case-25",
+   "capability": "Interpret",
+   "benchmark": "RoboFAC",
+   "type": "Task identification",
+   "frames": [
+    {
+     "src": "assets/cases/case-25/f1.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-25/f2.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-25/f3.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-25/f4.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-25/f5.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-25/f6.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-25/f7.webp",
+     "w": 448,
+     "h": 336
+    },
+    {
+     "src": "assets/cases/case-25/f8.webp",
+     "w": 448,
+     "h": 336
+    }
+   ],
+   "frames_note": "8 frames in temporal order; the last is the current view.",
+   "question": "These 8 images are frames of a robot video, in temporal order; the last one is the current view.\nFrom the video, what task is the robot engaged in?",
+   "reference": "Pull the cube to the target position.",
+   "metric": "correct",
+   "answers": {
+    "ours": {
+     "text": "Pull the yellow cube to the target position.",
+     "correct": true
+    },
+    "astra": {
+     "text": "The robot appears to be attempting to pick up the yellow block and move it onto the red bullseye target. It reaches toward the block and then returns over the target, but the block remains in place, suggesting the grasp was unsuccessful.",
+     "correct": true
+    },
+    "opus": {
+     "text": "The robot appears to be attempting a **pick-and-place task: picking up the yellow \"V\" cube and placing it on the red bullseye target**.\n\nWhat the frames show:\n\n1. **Frames 1–2:** The arm starts in a folded rest position near the target sheet and begins to lift.\n2. **Frames 3–4:** It swings left and reaches down toward the yellow cube, with the gripper lowered right next to it, apparently trying to grasp it.\n3. **Frame 5:** It lifts and moves right, toward the target.\n4. **Frame 6:** The gripper lowers over the bullseye, as if placing something there.\n5. **Frames 7–8:** It returns to its starting rest pose.\n\nHowever, **the attempt seems to have failed.** The yellow cube stays in exactly the same spot on the gray mat in every frame, and nothing ends up on the target. The robot went through the motions, but the grasp appears to have missed, so it \"placed\" nothing on the bullseye.",
+     "correct": false
+    }
+   },
+   "credit": "RoboFAC (MINT-SJTU), MIT License"
+  }
+ ]
+}

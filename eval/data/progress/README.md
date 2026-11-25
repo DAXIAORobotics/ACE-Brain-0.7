@@ -1,0 +1,1 @@
+Questions, labels and frame manifest. The 798 frames (images/) come from the hub archive progress.tar.gz (`prepare.py --from-hub --sets progress`); this git copy holds the small files only. See `../../benchmarks/progress/README.md`.

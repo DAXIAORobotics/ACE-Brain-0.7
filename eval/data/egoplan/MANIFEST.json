@@ -1,0 +1,51 @@
+{
+ "benchmark": "egoplan",
+ "eval_jsonl_sha256": "262a1a659d8dba2cb462ababebaf027a8f92bcbe7df41be260268a3fd8995a73",
+ "frame_provenance_jsonl_sha256": "e996bf16f419a413a2a1d7cff9f8bc5f25259dd97939397012b8f25f5a658bd3",
+ "rows": 3343,
+ "rows_by_split": {
+  "epic": 2420,
+  "ego4d": 923
+ },
+ "images": 23230,
+ "image_files_per_row": 8,
+ "official_validation_samples": 3355,
+ "excluded_sample_ids": [
+  247,
+  370,
+  564,
+  651,
+  704,
+  963,
+  1036,
+  1753,
+  1764,
+  1909,
+  2119,
+  2346
+ ],
+ "fallback_sample_ids": [
+  115,
+  192,
+  761,
+  785,
+  876,
+  1029,
+  1147,
+  1280,
+  1814,
+  1848,
+  1944,
+  2040,
+  2054,
+  2172,
+  2421
+ ],
+ "sources": {
+  "hf_dataset": "lmms-lab/EgoPlan-Bench",
+  "github": "ChenYi99/EgoPlan",
+  "github_commit": "1510afc12bc832b50d6285d83503ecbdca093bf4",
+  "lmms_eval_commit": "08affba133b97b19351897f4d42081ead2b3412e"
+ },
+ "image_sha256_note": "image_sha256 in ids.json is informational: JPEG bytes depend on the opencv/ffmpeg build; the verdict uses the question file and the path set"
+}

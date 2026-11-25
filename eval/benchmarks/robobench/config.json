@@ -1,0 +1,13 @@
+{
+  "benchmark": "robobench",
+  "data_subdir": "robobench",
+  "items": "items.jsonl",
+  "image_root": "",
+  "generation": {
+    "temperature": 0.0, "max_tokens": 1024, "thinking": false, "min_pixels": 65536, "max_pixels": 16777216,
+    "seed": 0, "max_model_len": 32768, "max_images": 40, "batch_size": 64
+  },
+  "judge": {"max_tokens": 4096, "temperature": 0.0, "thinking": false, "retries": 3, "rejudge_rounds": 6},
+  "eligible_items": 3979,
+  "protocol": "natural-language RoboBench (Q1 plan / Q2 next subtask judged, Q3 yes/no rule); greedy generation on the 3,979 eligible items; overall = mean of item scores"
+}
